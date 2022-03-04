@@ -1,0 +1,35 @@
+/* General Styles */
+
+html {
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-weight: normal;
+    font-size: 125%; /*20px default */
+    color: #201E21;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section {
+    padding: 100;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+

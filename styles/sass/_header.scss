@@ -1,0 +1,46 @@
+/* Header Styles */
+
+header {
+    height: 90vh;
+    padding: 40px;
+    background: url('https://psd.hackeryou.com/assignment1-assets/paint-gallery/group-4@2x.png') center;
+    object-fit: cover;
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        height: 80%;
+    }
+}
+
+
+.navigation {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+    flex-basis: 100%;
+
+    ul {
+        display: flex;
+        justify-content: left;
+    }
+
+    li {
+        padding: 0px 40px 0px 0px;
+    }
+    
+    a {
+        color: #201E21;
+    }
+}
+
+h1 {
+    font-family: 'East Sea Dokdo', sans-serif;
+    @include fontSize(122);
+    margin: 0;
+    flex-basis: 100%;
+    justify-content: left;
+    align-items: center;
+}
+

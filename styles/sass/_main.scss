@@ -1,0 +1,48 @@
+.new-products {
+    background: #FFE9E9 ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .wrapper {
+        display: flex;
+        
+    }
+
+    .image-container {
+        margin-right: 2rem;
+        flex-basis: 25%
+    }
+
+    .text-container {
+        flex-basis: 70%;
+        
+        h2 {
+            @include fontSize(75);
+            line-height: 36px;
+            margin: 0;
+        }
+
+        p {
+            font-family: 'roboto', sans-serif;
+            font-weight: 400;
+            line-height: 29px;
+            letter-spacing: 0.2px;
+            margin: 20px 0px 20px 0px;
+        }
+
+        a {
+            display: inline-block;
+            width: 175px;
+            height: 50px;
+            background-color: #0178A5;
+            color: white;
+            //line-height: 29px;
+            text-align: center;
+            @include fontSize(45)
+        }
+    }
+}
+
+.latest-exhibitions {
+    
+}
