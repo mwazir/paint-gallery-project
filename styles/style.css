@@ -358,3 +358,74 @@ h1 {
   font-size: 45px;
   font-size: 2.25rem;
 }
+
+.latest-exhibitions {
+  background: #F7DAE8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.latest-exhibitions h2 {
+  font-size: 75px;
+  font-size: 3.75rem;
+  text-align: center;
+  margin: 0;
+}
+.latest-exhibitions ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+.latest-exhibitions ul li {
+  -ms-flex-preferred-size: 32%;
+      flex-basis: 32%;
+}
+
+.links-to-additional-info {
+  background: #FFE9E9;
+}
+
+.brush-and-paint-info {
+  background: #F7DAE8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.brush-and-paint-info .text-container {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+.brush-and-paint-info .text-container h2 {
+  font-size: 75px;
+  font-size: 3.75rem;
+  line-height: 36px;
+  margin: 0;
+}
+.brush-and-paint-info .text-container p {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.2px;
+  margin: 20px 0px 20px 0px;
+}
+.brush-and-paint-info .text-container a {
+  display: inline-block;
+  width: 175px;
+  height: 50px;
+  background-color: #A7059B;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-size: 2.25rem;
+}
+.brush-and-paint-info .image-container {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+/* Footer Styles */
