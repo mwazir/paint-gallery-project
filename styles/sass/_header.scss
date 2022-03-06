@@ -6,17 +6,32 @@ header {
     background: url('https://psd.hackeryou.com/assignment1-assets/paint-gallery/group-4@2x.png') center;
     object-fit: cover;
 
+    @media screen and (max-width: 480px) {
+            padding: 20px;
+    }
+    
     .wrapper {
         display: flex;
         flex-wrap: wrap;
         height: 80%;
+    }
+
+    h1 {
+        line-height: 94.3px;
+        font-family: 'East Sea Dokdo', sans-serif;
+        @include fontSize(122);
+        margin: 0;
+        flex-basis: 100%;
+        justify-content: left;
+        align-items: center;
     }
 }
 
 
 .navigation {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-weight: 500;
+    @include fontSize(20);
     line-height: 29px;
     letter-spacing: 0.2px;
     flex-basis: 100%;
@@ -24,6 +39,10 @@ header {
     ul {
         display: flex;
         justify-content: left;
+
+        @media screen and (max-width: 480px) {
+            display: none;
+        }
     }
 
     li {
@@ -33,14 +52,18 @@ header {
     a {
         color: #201E21;
     }
+
+    i {
+        display: none;
+
+        @media screen and (max-width: 480px) {
+            display: block;
+            text-align: right;
+            color: white;
+            @include fontSize(50);
+        }
+    }   
 }
 
-h1 {
-    font-family: 'East Sea Dokdo', sans-serif;
-    @include fontSize(122);
-    margin: 0;
-    flex-basis: 100%;
-    justify-content: left;
-    align-items: center;
-}
+
 

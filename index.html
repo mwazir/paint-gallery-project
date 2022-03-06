@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/a3cb5273ce.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -20,6 +21,7 @@
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
+                <i class="fa-solid fa-bars"></i>
             </nav>
             <h1>Paint Gallery</h1>
         </div>
@@ -49,26 +51,36 @@
         </section>
         <section class="links-to-additional-info">
             <div class="wrapper">
-                <p>catalogue</p>
-                <p>catalogue</p>
-                <p>catalogue</p>
+                <div class="icon-container">
+                    <i class="fa-regular fa-images"></i>
+                    <p>catalogue</p>
+                </div>
+                <div class="icon-container">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p>events</p>
+                </div>
+                <div class="icon-container">
+                    <i class="fa-regular fa-handshake"></i>
+                    <p>collaborations</p>
+                </div>
+                
             </div>
         </section>
         <section class="brush-and-paint-info">
-            <div class="text-container">
+            <div class="text-container text-left" >
                 <div class="wrapper">
                     <h2>Finding the right brushes</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero omnis magnam fuga blanditiis, sint eos neque assumenda. Error reiciendis ipsam facere deleniti nihil odit culpa commodi quod! Deleniti, doloremque delectus!</p>
                     <a href="#">read more</a>
                 </div> 
             </div>
-            <div class="image-container">
+            <div class="image-container image-right">
                 <img src="https://psd.hackeryou.com/assignment1-assets/paint-gallery/right-image@2x.png" alt="a bunch of paint brushes with paint on them">
             </div>
-            <div class="image-container">
+            <div class="image-container image-left">
                 <img src="https://psd.hackeryou.com/assignment1-assets/paint-gallery/left-image@2x.png" alt="an assortment of open paint buckets">
             </div>
-            <div class="text-container">
+            <div class="text-container text-right">
                 <div class="wrapper">
                     <h2>All kind of paints</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cupiditate minus eos earum. Possimus similique ipsum deleniti explicabo ut laboriosam, praesentium vel repellendus quos voluptate. Quam adipisci sed ipsam dolore.</p>
@@ -89,17 +101,18 @@
                 </ul>
             </nav>
             <div class="subscribe">
-                <p>Subscribe to our newsletter</p>
+                <p>Subscribe to our newsletter to stay updated.</p>
                 <form action="#" id="email-form">
                     <label for="email-address"></label>
-                    <input type="text" id="email-address" name="email-address">
+                    <input type="text" id="email-address" name="email-address" placeholder="email address">
                     <button type="submit" form="email-form"=>subscribe</button>
                 </form>
             </div>
             <div class="contact">
                 <h4>Contact</h4>
                 <p>info@email.com | 123 - 456 - 7890</p>
-                <p>123 some road, Toronto, ON A5A 5A5, Canada</p>
+                <p>123 some road, Toronto, ON </p>
+                <p>A5A 5A5, Canada</p>
             </div>
         </div>
         <div class="copyright">
