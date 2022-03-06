@@ -4,7 +4,7 @@ header {
     height: 90vh;
     padding: 40px;
     background: url('https://psd.hackeryou.com/assignment1-assets/paint-gallery/group-4@2x.png') center;
-    object-fit: cover;
+    background-size: cover;
 
     @media screen and (max-width: 480px) {
             padding: 20px;
