@@ -1,3 +1,5 @@
+/* Mixins */
+/* Setup Styles */
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -340,6 +342,7 @@ header h1 {
   }
 }
 
+/* Main Styles */
 .new-products {
   background: #FFE9E9;
   padding-top: 100px;
